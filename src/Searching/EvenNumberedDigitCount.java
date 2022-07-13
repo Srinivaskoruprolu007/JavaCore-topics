@@ -8,7 +8,7 @@ public class EvenNumberedDigitCount {
     static void evenDigit(int[] arr){
         int count = 0;
         for (int num:arr) {
-            if(even(num)){
+            if(even2(num)){
                 count++;
             }
         }
@@ -21,5 +21,11 @@ public class EvenNumberedDigitCount {
             counter++;
         }
         return counter % 2 == 0;
+    }
+    static boolean even2(int num){
+        if(num<0){
+            num *=-1;
+        }
+        return (int)(Math.log10(num)+1)%2==0;
     }
 }
