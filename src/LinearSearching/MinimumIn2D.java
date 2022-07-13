@@ -1,4 +1,4 @@
-package Searching;
+package LinearSearching;
 
 public class MinimumIn2D {
     public static void main(String[] args) {

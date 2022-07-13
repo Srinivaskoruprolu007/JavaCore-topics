@@ -1,4 +1,4 @@
-package Searching;
+package LinearSearching;
 
 public class MinimumElement {
     static void minElement(int[] arr){

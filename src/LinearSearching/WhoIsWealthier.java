@@ -1,4 +1,4 @@
-package Searching;
+package LinearSearching;
 
 public class WhoIsWealthier {
     public static void main(String[] args) {

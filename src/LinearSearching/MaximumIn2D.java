@@ -1,4 +1,4 @@
-package Searching;
+package LinearSearching;
 
 public class MaximumIn2D {
     public static void main(String[] args) {
