@@ -1,11 +1,7 @@
 package BinarySearching;
 
 public class Ceiling {
-//    binary search works for only sorted arrays
-//    here the steps to take the algo
-//    Step 1: find middle element
-//    step 2 : if element at middle is larger than our target it
-//     initiated to left side else right side of the array
+//    Ceiling means returning the nearest greater element
     public static void main(String[] args) {
         int[] arr = {1,4,5,6,7,8};
         int target = 9;
