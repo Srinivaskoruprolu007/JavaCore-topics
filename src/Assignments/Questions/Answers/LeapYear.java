@@ -11,6 +11,6 @@ public class LeapYear {
     }
 //this method checks whether the given year is leap or not
     static boolean isLeap(int year){
-        return year % 4 == 0;
+        return (year % 4)==0 && (year % 100)!= 0 ||(year%400==0);
     }
 }
